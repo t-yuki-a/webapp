@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>社員情報一覧</title>
+        <link rel="stylesheet" type="text/css" href="css\main.css"/>
+        <script type="text/javascript" src="jquery\main.js"></script>
+    </head>
+    <body>
+        <div id="Header">
+        <h1>社員情報一覧</h1>
+        <div id="menu">
+            <input type="reset" value="ログアウト" onClick="login()">
+      <br><input  type="text" id="found" size="20" maxlength="20"><button >検索</button>
+      </div>
+      </div>
+      <div id= "pagebody">
+        <div id="Sidebar">
+          <ul>
+            <ri>社員情報一覧</a></li>
+              <br><ri><a href="#" onclick="registrstion() ">社員情報登録</a></ri>
+              <br><ri><a href="#" onclick="fix() ">社員情報修正・削除</a></ri>
+          </ul>
+        </div>
+        <div id="Mainbody">
+        <table border="1">
+            <tr>
+                <th>社員ID</th>
+                <th>氏名</th>
+                <th>性別</th>
+                <th>部署</th>
+                <th>生年月日</th>
+                <th>メールアドレス</th>
+                <th>電話番号</th>
+                <th>住所</th>
+                <th>最終学歴</th>
+                <th>特技</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>中田花子</td>
+                <td>女性</td>
+                <td>営業部</td>
+                <td>1991,2,3</td>
+                <td>xxxxxx@gmail.com</td>
+                <td>09011111111</td>
+                <td>東京都</td>
+                <td>〇〇大学</td>
+                <td>運動</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </body>
+</html>

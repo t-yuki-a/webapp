@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- css外部定義 -->
+    <link rel="stylesheet"  href="css\login.css"/>
+
+    <!-- jquary外部定義 -->
+    <script type="text/javascript" src="jquery\login.js"></script>
+
+    <!-- webページタイトル -->
+    <title>社員情報システム</title>
+  </head>
+
+  <body>
+    <!-- 画面タイトル -->
+    <div id="ログイン">
+    <h1>ログイン</h1>
+
+    <!-- 入力ボックス -->
+    <form  method="post">
+      <input id="id" type="text" value="" placeholder="ユーザーID" size="24" required="required">
+      <input id="password" type="password" value="" placeholder="パスワード" size="24" required="required">
+
+       <!-- 登録ボタン -->
+      <button class="but" type="button" id="submit" onclick="login()">登録</button>
+    </form>
+  </body>
+
+</html>
